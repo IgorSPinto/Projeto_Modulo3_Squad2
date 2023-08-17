@@ -46,7 +46,7 @@ $ git clone https://github.com/IgorSPinto/Projeto_Modulo3_Squad2.git
 $ cd Projeto_Modulo3_Squad2
 $ cd mysql_populado
 # Agora você ira executar os comandos do docker para para poder gerar a imagem e o container
-$ docker build -t docker_populado .
+$ docker build -t docker_populado .\
 $ docker-compose up
 # Pronto, você já tem seu banco populado pronto para ser acessado no workbench, não se esqueça de conferir a porta utilizada na conexão, aqui utilizamos as portas 3306:3306
 ```
