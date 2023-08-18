@@ -1,4 +1,5 @@
 <div>
+
 ## Banco de Dados Instituto BD (Brasil Didática)
 
 <p>
@@ -27,7 +28,6 @@ Utilizando consultas com métodos select, inner join, create view, foi possível
 - Quais facilitadores dão qual matéria, em qual curso e em módulo respectivamente?
 </p>
 
-
 ## Stacks
 
 Foi utilizado no projeto as stacks a seguir:
@@ -37,20 +37,18 @@ Foi utilizado no projeto as stacks a seguir:
 - [MySql - Docker][https://hub.docker.com/_/mysql]
 - [Workbench][https://www.mysql.com/products/workbench/]
 
-<p>
-  
-</p>
-
 ## Como executar o projeto
 ```bash
 # Clone este repositório
-$ 
+$ git clone https://github.com/IgorSPinto/Projeto_Modulo3_Squad2.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ 
+$ cd Projeto_Modulo3_Squad2
+$ cd mysql_populado
+# Agora você ira executar os comandos do docker para para poder gerar a imagem e o container
+$ docker build -t docker_populado .\
+$ docker-compose up
+# Pronto, você já tem seu banco populado pronto para ser acessado no workbench, não se esqueça de conferir a porta utilizada na conexão, aqui utilizamos as portas 3306:3306
 ```
-
-
-
 Desenvolvido por: Ana Oliveira, Caroline Alves, Igor Pinto e Victor Vechi
 </div>

@@ -1,3 +1,5 @@
+/*Script de reposta da pergunta 3 sobre a porcetagem de evasão de alunso por turma*/
+
 CREATE VIEW PorcentagemEvasaoPorTurma AS
 SELECT
     turma_id,
